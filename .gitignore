@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+reports/*.json
+evals/results/
+data/windows_security_live.json

@@ -1,0 +1,30 @@
+Nov  4 09:16:59 web01 sshd[1183]: Accepted password for alice from 10.0.2.27 port 43819 ssh2
+Nov  4 09:16:59 web01 sshd[1183]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  4 09:32:48 web01 sshd[3317]: Accepted password for dave from 10.0.1.19 port 44768 ssh2
+Nov  4 09:32:48 web01 sshd[3317]: pam_unix(sshd:session): session opened for user dave(uid=1000) by (uid=0)
+Nov  4 10:31:45 web01 sshd[1183]: Accepted password for alice from 10.0.2.27 port 48305 ssh2
+Nov  4 10:31:45 web01 sshd[1183]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  4 10:34:00 web01 sshd[5427]: Accepted password for carol from 10.0.2.16 port 48440 ssh2
+Nov  4 10:34:00 web01 sshd[5427]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  4 12:55:30 web01 sshd[1183]: Accepted password for alice from 10.0.2.27 port 56930 ssh2
+Nov  4 12:55:30 web01 sshd[1183]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  4 13:13:05 web01 sshd[2372]: Accepted password for erin from 10.0.1.39 port 57985 ssh2
+Nov  4 13:13:05 web01 sshd[2372]: pam_unix(sshd:session): session opened for user erin(uid=1000) by (uid=0)
+Nov  4 13:30:01 web01 sshd[5427]: Accepted password for carol from 10.0.2.16 port 59001 ssh2
+Nov  4 13:30:01 web01 sshd[5427]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  4 14:12:16 web01 sshd[3317]: Accepted password for dave from 10.0.1.19 port 41536 ssh2
+Nov  4 14:12:16 web01 sshd[3317]: pam_unix(sshd:session): session opened for user dave(uid=1000) by (uid=0)
+Nov  4 14:58:39 web01 sshd[2372]: Accepted password for erin from 10.0.1.39 port 44319 ssh2
+Nov  4 14:58:39 web01 sshd[2372]: pam_unix(sshd:session): session opened for user erin(uid=1000) by (uid=0)
+Nov  4 15:10:00 web01 sshd[3086]: Failed password for bob from 10.0.1.33 port 45000 ssh2
+Nov  4 15:10:11 web01 sshd[3086]: Failed password for bob from 10.0.1.33 port 45011 ssh2
+Nov  4 15:10:26 web01 sshd[3086]: Failed password for bob from 10.0.1.33 port 45026 ssh2
+Nov  4 15:10:50 web01 sshd[3086]: Accepted password for bob from 10.0.1.33 port 45050 ssh2
+Nov  4 15:10:50 web01 sshd[3086]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  4 15:26:55 web01 sshd[3317]: Failed password for dave from 10.0.1.19 port 46015 ssh2
+Nov  4 15:27:03 web01 sshd[3317]: Accepted password for dave from 10.0.1.19 port 46023 ssh2
+Nov  4 15:27:03 web01 sshd[3317]: pam_unix(sshd:session): session opened for user dave(uid=1000) by (uid=0)
+Nov  4 16:34:10 web01 sshd[5427]: Accepted password for carol from 10.0.2.16 port 50050 ssh2
+Nov  4 16:34:10 web01 sshd[5427]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  4 18:18:52 web01 sshd[2372]: Accepted password for erin from 10.0.1.39 port 56332 ssh2
+Nov  4 18:18:52 web01 sshd[2372]: pam_unix(sshd:session): session opened for user erin(uid=1000) by (uid=0)

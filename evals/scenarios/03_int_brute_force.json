@@ -1,0 +1,245 @@
+[
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T09:12:03Z",
+    "TargetUserName": "erin",
+    "IpAddress": "10.0.1.22",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T10:25:13Z",
+    "TargetUserName": "alice",
+    "IpAddress": "10.0.1.30",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T10:25:21Z",
+    "TargetUserName": "alice",
+    "IpAddress": "10.0.1.30",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T10:37:47Z",
+    "TargetUserName": "carol",
+    "IpAddress": "10.0.2.29",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T11:43:35Z",
+    "TargetUserName": "alice",
+    "IpAddress": "10.0.1.30",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T11:44:57Z",
+    "TargetUserName": "alice",
+    "IpAddress": "10.0.1.30",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T11:48:16Z",
+    "TargetUserName": "bob",
+    "IpAddress": "10.0.1.13",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T11:48:35Z",
+    "TargetUserName": "carol",
+    "IpAddress": "10.0.2.29",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T11:48:43Z",
+    "TargetUserName": "carol",
+    "IpAddress": "10.0.2.29",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T12:11:01Z",
+    "TargetUserName": "carol",
+    "IpAddress": "10.0.2.29",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T12:24:27Z",
+    "TargetUserName": "bob",
+    "IpAddress": "10.0.1.13",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T12:25:50Z",
+    "TargetUserName": "bob",
+    "IpAddress": "10.0.1.13",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T12:25:58Z",
+    "TargetUserName": "bob",
+    "IpAddress": "10.0.1.13",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T13:28:40Z",
+    "TargetUserName": "erin",
+    "IpAddress": "10.0.1.22",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:00Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:04.749278Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:08.259524Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:11.799642Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:13.416308Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:16.423362Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:20.063310Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:23.594266Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:25.489770Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:28.317705Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4625,
+    "TimeCreated": "2026-11-04T14:15:31.341551Z",
+    "TargetUserName": "backup",
+    "IpAddress": "10.0.2.11",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T16:32:54Z",
+    "TargetUserName": "erin",
+    "IpAddress": "10.0.1.22",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  },
+  {
+    "EventID": 4624,
+    "TimeCreated": "2026-11-04T09:12:03Z",
+    "TargetUserName": "WS-FIN-07$",
+    "IpAddress": "10.0.1.22",
+    "LogonType": 3,
+    "WorkstationName": "-",
+    "Computer": "WS-FIN-07"
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "file": "scenarios/01_ext_brute_force.log",
+    "scenario": "ext_brute_force",
+    "description": "External brute force on admin, no success",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/02_ext_brute_force.log",
+    "scenario": "ext_brute_force",
+    "description": "External brute force on admin, no success",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/03_int_brute_force.json",
+    "scenario": "int_brute_force",
+    "description": "Internal host brute forcing backup, no success",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/04_int_brute_force.log",
+    "scenario": "int_brute_force",
+    "description": "Internal host brute forcing admin, no success",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/05_ext_brute_success_priv.log",
+    "scenario": "ext_brute_success_priv",
+    "description": "External brute force then success on admin",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "CRITICAL"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/06_ext_brute_success_priv.json",
+    "scenario": "ext_brute_success_priv",
+    "description": "External brute force then success on root",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "CRITICAL"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/07_ext_brute_success_user.log",
+    "scenario": "ext_brute_success_user",
+    "description": "External brute force then success on normal user intern",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/08_ext_brute_success_user.log",
+    "scenario": "ext_brute_success_user",
+    "description": "External brute force then success on normal user dev01",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/09_int_brute_success_priv.json",
+    "scenario": "int_brute_success_priv",
+    "description": "Internal host brute forced admin then succeeded",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/10_int_brute_success_priv.log",
+    "scenario": "int_brute_success_priv",
+    "description": "Internal host brute forced admin then succeeded",
+    "expected": [
+      {
+        "rule": "brute_force_success",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/11_typo.log",
+    "scenario": "typo",
+    "description": "bob mistyped password 3x then logged in (internal)",
+    "expected": [
+      {
+        "rule": "failed_then_success",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/12_typo.json",
+    "scenario": "typo",
+    "description": "admin mistyped password 3x then logged in (internal)",
+    "expected": [
+      {
+        "rule": "failed_then_success",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/13_service_stale_password.log",
+    "scenario": "service_stale_password",
+    "description": "svc_reporting retrying a stale password every 60s (misconfig)",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/14_service_stale_password.log",
+    "scenario": "service_stale_password",
+    "description": "svc_backup retrying a stale password every 60s (misconfig)",
+    "expected": [
+      {
+        "rule": "brute_force",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/15_spray.json",
+    "scenario": "spray",
+    "description": "External password spray over 9 accounts, no success",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/16_spray.log",
+    "scenario": "spray",
+    "description": "External password spray over 10 accounts, no success",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/17_spray_username_guessing.log",
+    "scenario": "spray_username_guessing",
+    "description": "Internet scanner guessing non-existent usernames",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/18_spray_username_guessing.json",
+    "scenario": "spray_username_guessing",
+    "description": "Internet scanner guessing non-existent usernames",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/19_spray_success.log",
+    "scenario": "spray_success",
+    "description": "Password spray with successful login as carol",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/20_spray_success.log",
+    "scenario": "spray_success",
+    "description": "Password spray with successful login as dave",
+    "expected": [
+      {
+        "rule": "password_spray",
+        "severity": "HIGH"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/21_offhours_admin.json",
+    "scenario": "offhours_admin",
+    "description": "Admin login at night from internal IP, no failures",
+    "expected": [
+      {
+        "rule": "off_hours_privileged_login",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/22_offhours_admin.log",
+    "scenario": "offhours_admin",
+    "description": "Admin login at night from internal IP, no failures",
+    "expected": [
+      {
+        "rule": "off_hours_privileged_login",
+        "severity": "LOW"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/23_ext_admin_login.log",
+    "scenario": "ext_admin_login",
+    "description": "Privileged login from external IP, no failures",
+    "expected": [
+      {
+        "rule": "external_privileged_login",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/24_ext_admin_login.json",
+    "scenario": "ext_admin_login",
+    "description": "Privileged login from external IP, no failures",
+    "expected": [
+      {
+        "rule": "external_privileged_login",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "file": "scenarios/25_normal.log",
+    "scenario": "normal",
+    "description": "Normal business-hours activity only",
+    "expected": []
+  },
+  {
+    "file": "scenarios/26_normal.log",
+    "scenario": "normal",
+    "description": "Normal business-hours activity only",
+    "expected": []
+  }
+]
